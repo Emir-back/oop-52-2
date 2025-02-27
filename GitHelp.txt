@@ -1,0 +1,13 @@
+git config --global user.name "Your name"
+git config --global user.email "your-email@example.com"
+-----------------------------------------------
+команды один раз для проетка
+---------------------------------------------
+git init
+git remote add origin https://github.com/Emir-back/oop-52-2.git
+-------------------------------------
+Часто используемые команды
+-------
+git status
+git add .
+
