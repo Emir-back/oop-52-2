@@ -1,4 +1,4 @@
-git config --global user.name "Your name"
+gitgigi config --global user.name "Your name"
 git config --global user.email "your-email@example.com"
 -----------------------------------------------
 команды один раз для проетка
@@ -8,6 +8,15 @@ git remote add origin https://github.com/Emir-back/oop-52-2.git
 -------------------------------------
 Часто используемые команды
 -------
+команда для статуса  проекта и его состояния
 git status
+команда для добавления файлов в буфер
 git add .
-
+команда для создания коммита или же сохранения всего что есть в буфере
+git commit -m "lS: Lesson 1 added learn python oop"
+------------------------------
+комагда для проверки ветки
+git branch
+-----------------------,
+Команда для отправки коммита в репозиторий
+git push origin master
