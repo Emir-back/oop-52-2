@@ -11,17 +11,20 @@ class Square(Figure):
     def __init__(self,side_lenght):
         super().__init__()
         self.__side_lenght = side_lenght
+    def calculate_area(self):
+        return self.__side_lenght ** 2
 
     def info(self):
-        return f'Square side lenght: {self.__side_lenght}cm , area:{self.__side_lenght ** 2}cm'
+        return f'Square side lenght: {self.__side_lenght}cm , area:{self.calculate_area()}cm'
 class Rectangle(Figure):
     def __init__(self,lenght,width):
+        super().__init__()
         self.__lenght = lenght
         self.__width = width
-    def calculate_area(self,lenght,width):
-        return
+    def calculate_area(self):
+        return self.__lenght * self.__width
     def info(self):
-        return f'Rectangle lenght: {self.__lenght}cm, width: {self.__width}cm . Area : {self.__lenght*self.__width}'
+        return f'Rectangle lenght: {self.__lenght}cm, width: {self.__width}cm . Area : {self.calculate_area()}'
 
 
 rectangle = Rectangle(12,2)
