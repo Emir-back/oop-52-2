@@ -92,9 +92,6 @@ print(smartphone1)
 smartphone2 = SmartPhone(6, 32, ["MegaCom", "Beeline"])
 print(smartphone2)
 
-print("Result of make_computations for computer:", computer.make_computations())
-
-# Для объекта Phone
 phone.call(1, "+996 777 59 48 11")
 phone.call(2, "+996 777 59 48 32")
 phone.call(3, "+996 777 59 48 23")
